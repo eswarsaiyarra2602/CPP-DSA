@@ -11,7 +11,6 @@ void fun(BinaryTreeNode<int> *root , int &count)
     }
     fun(root->left,count);
     fun(root->right,count);
-    return;
     
 }
 int noOfLeafNodes(BinaryTreeNode<int> *root){
