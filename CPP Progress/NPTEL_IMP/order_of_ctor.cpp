@@ -10,7 +10,7 @@ class Base{
 class Derived : public Base{
     int z_;
     public:
-    Derived(int z ) :  z_(z) , Base(int z){         
+    Derived(int z ) :  z_(z) , Base( z){         
         cout<<"Derived parameterized ctor"<<endl;
     }
 };
