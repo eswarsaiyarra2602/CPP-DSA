@@ -17,7 +17,7 @@ void SortedInsert(Node*&head , int num)
     }
     else{
         Node* currentNode = head ;
-        while(currentNode->next!=nullptr && currentNode->next->data<num)
+        while(currentNode->next!=nullptr && currentNode->next->data<num)    //imp line , first condition is to avoid dereferencing null point ( segmentation fault)
         {
             currentNode=currentNode->next;
         }
