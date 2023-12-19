@@ -45,7 +45,5 @@ int main()
         cin>>num;
         SortedInsert(head,num);
     }
-    cin>>x;
-    SortedInsert(head,x);
     display(head);
 }
